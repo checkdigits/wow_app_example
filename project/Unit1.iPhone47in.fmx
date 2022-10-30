@@ -1,0 +1,149 @@
+inherited Form1_iPhone47in: TForm1_iPhone47in
+  ClientHeight = 647
+  ClientWidth = 375
+  DesignerMasterStyle = 2
+  inherited VertScrollBox1: TVertScrollBox
+    Size.Width = 375.000000000000000000
+    Size.Height = 647.000000000000000000
+    Viewport.Width = 375.000000000000000000
+    Viewport.Height = 647.000000000000000000
+    inherited HeaderLayout: TLayout
+      Size.Width = 375.000000000000000000
+      Size.Height = 97.000000000000000000
+      inherited lbCity: TSkLabel
+        Position.X = 146.000000000000000000
+      end
+      inherited SkLabel1: TSkLabel
+        Position.X = 129.000000000000000000
+      end
+      inherited CurrentWeatherAnimation: TSkAnimatedImage
+        Position.X = 8.000000000000000000
+      end
+    end
+    inherited MainLayout: TLayout
+      Size.Width = 375.000000000000000000
+      inherited MainAnimation: TSkAnimatedImage [0]
+        Opacity = 0.000000000000000000
+        Size.Width = 375.000000000000000000
+        inherited lblSplashText: TSkLabel
+          Position.X = 66.000000000000000000
+          Position.Y = 289.000000000000000000
+        end
+      end
+      inherited StaticAnimation: TSkAnimatedImage [1]
+        Position.Y = 200.000000000000000000
+        Size.Width = 375.000000000000000000
+        Size.Height = 400.000000000000000000
+      end
+      inherited MainPanel: TRectangle
+        Position.X = 7.000000000000000000
+        Size.Width = 360.000000000000000000
+        inherited SkLabel11: TSkLabel
+          Position.X = 155.000000000000000000
+        end
+        inherited SkLabel12: TSkLabel
+          Position.X = 320.000000000000000000
+        end
+        inherited SkLabel15: TSkLabel
+          Position.X = 155.000000000000000000
+        end
+        inherited SkLabel16: TSkLabel
+          Position.X = 320.000000000000000000
+        end
+        inherited SkLabel19: TSkLabel
+          Position.X = 155.000000000000000000
+        end
+        inherited SkLabel20: TSkLabel
+          Position.X = 320.000000000000000000
+        end
+        inherited SkLabel23: TSkLabel
+          Position.X = 155.000000000000000000
+        end
+        inherited SkLabel24: TSkLabel
+          Position.X = 320.000000000000000000
+        end
+        inherited SkLabel27: TSkLabel
+          Position.X = 155.000000000000000000
+        end
+        inherited SkLabel28: TSkLabel
+          Position.X = 320.000000000000000000
+        end
+        inherited SkLabel3: TSkLabel
+          Position.X = 155.000000000000000000
+        end
+        inherited SkLabel4: TSkLabel
+          Position.X = 320.000000000000000000
+        end
+        inherited SkLabel7: TSkLabel
+          Position.X = 155.000000000000000000
+        end
+        inherited SkLabel8: TSkLabel
+          Position.X = 320.000000000000000000
+        end
+        inherited SkSvg1: TSkSvg
+          Position.X = 110.000000000000000000
+        end
+        inherited SkSvg10: TSkSvg
+          Position.X = 110.000000000000000000
+        end
+        inherited SkSvg11: TSkSvg
+          Position.X = 210.000000000000000000
+        end
+        inherited SkSvg12: TSkSvg
+          Position.X = 265.000000000000000000
+        end
+        inherited SkSvg13: TSkSvg
+          Position.X = 110.000000000000000000
+        end
+        inherited SkSvg14: TSkSvg
+          Position.X = 210.000000000000000000
+        end
+        inherited SkSvg15: TSkSvg
+          Position.X = 265.000000000000000000
+        end
+        inherited SkSvg16: TSkSvg
+          Position.X = 110.000000000000000000
+        end
+        inherited SkSvg17: TSkSvg
+          Position.X = 210.000000000000000000
+        end
+        inherited SkSvg18: TSkSvg
+          Position.X = 265.000000000000000000
+        end
+        inherited SkSvg19: TSkSvg
+          Position.X = 110.000000000000000000
+        end
+        inherited SkSvg2: TSkSvg
+          Position.X = 210.000000000000000000
+        end
+        inherited SkSvg20: TSkSvg
+          Position.X = 210.000000000000000000
+        end
+        inherited SkSvg21: TSkSvg
+          Position.X = 265.000000000000000000
+        end
+        inherited SkSvg3: TSkSvg
+          Position.X = 265.000000000000000000
+        end
+        inherited SkSvg4: TSkSvg
+          Position.X = 110.000000000000000000
+        end
+        inherited SkSvg5: TSkSvg
+          Position.X = 210.000000000000000000
+        end
+        inherited SkSvg6: TSkSvg
+          Position.X = 265.000000000000000000
+        end
+        inherited SkSvg7: TSkSvg
+          Position.X = 110.000000000000000000
+        end
+        inherited SkSvg8: TSkSvg
+          Position.X = 210.000000000000000000
+        end
+        inherited SkSvg9: TSkSvg
+          Position.X = 265.000000000000000000
+        end
+      end
+    end
+  end
+end
