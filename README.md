@@ -11,6 +11,7 @@ There is a blog post describing this code and the reasoning behind it here: [htt
 
 For more Embarcadero posts by Ian: [https://blogs.embarcadero.com/author/ianbarker/](https://blogs.embarcadero.com/author/ianbarker/)
 
+<img src="https://github.com/checkdigits/wow_app_example/blob/main/demo_gif/wow_app_demo_sample.gif" alt="Demo" style="vertical-align:top; margin:4px">
 
 
 ### Requirements
