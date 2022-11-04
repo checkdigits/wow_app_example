@@ -22,7 +22,12 @@ inherited Form1_iPhone47in: TForm1_iPhone47in
     end
     inherited MainLayout: TLayout
       Size.Width = 375.000000000000000000
-      inherited MainAnimation: TSkAnimatedImage [0]
+      inherited StaticAnimation: TSkAnimatedImage
+        Position.Y = 200.000000000000000000
+        Size.Width = 375.000000000000000000
+        Size.Height = 400.000000000000000000
+      end
+      inherited MainAnimation: TSkAnimatedImage
         Opacity = 0.000000000000000000
         Size.Width = 375.000000000000000000
         inherited lblSplashText: TSkLabel
@@ -30,13 +35,7 @@ inherited Form1_iPhone47in: TForm1_iPhone47in
           Position.Y = 289.000000000000000000
         end
       end
-      inherited StaticAnimation: TSkAnimatedImage [1]
-        Position.Y = 200.000000000000000000
-        Size.Width = 375.000000000000000000
-        Size.Height = 400.000000000000000000
-      end
       inherited MainPanel: TRectangle
-        Position.X = 7.000000000000000000
         Size.Width = 360.000000000000000000
         inherited SkLabel11: TSkLabel
           Position.X = 155.000000000000000000

@@ -12292,7 +12292,7 @@ object Form1: TForm1
       object MainPanel: TRectangle
         Fill.Color = xFF026753
         Opacity = 0.899999976158142100
-        Position.X = 28.000000000000000000
+        Position.X = 35.000000000000000000
         Position.Y = 64.000000000000000000
         Size.Width = 585.000000000000000000
         Size.Height = 297.000000000000000000
