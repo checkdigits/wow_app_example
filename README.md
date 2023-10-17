@@ -20,7 +20,7 @@ For more Embarcadero posts by Ian: [https://blogs.embarcadero.com/author/ianbark
 
 * You need to have Skia4Delphi installed -> [https://skia4delphi.org/](https://skia4delphi.org/)
 
-* Tested with RAD Studio with Delphi 11.2 -> [https://www.embarcadero.com/products/delphi](https://www.embarcadero.com/products/delphi)
+* Tested with RAD Studio with Delphi 11.3 -> [https://www.embarcadero.com/products/delphi](https://www.embarcadero.com/products/delphi)
 
   
 *End of document*
