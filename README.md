@@ -18,9 +18,10 @@ For more Embarcadero posts by Ian: [https://blogs.embarcadero.com/author/ianbark
 
 ---
 
-* You need to have Skia4Delphi installed -> [https://skia4delphi.org/](https://skia4delphi.org/)
+* For versions of RAD Studio lower than 12.0 you need to have Skia4Delphi installed -> [https://skia4delphi.org/](https://skia4delphi.org/)
+  You will also need to uncomment the lines in the DPR mention Skia
 
-* Tested with RAD Studio with Delphi 11.3 -> [https://www.embarcadero.com/products/delphi](https://www.embarcadero.com/products/delphi)
+* Tested with RAD Studio with Delphi 12.0 -> [https://www.embarcadero.com/products/delphi](https://www.embarcadero.com/products/delphi)
 
   
 *End of document*
