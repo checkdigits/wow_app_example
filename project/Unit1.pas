@@ -12,7 +12,8 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
-  FMX.Layouts, Skia, Skia.FMX, FMX.Ani, FMX.Objects;
+  FMX.Layouts, FMX.Ani, FMX.Objects, System.Skia, FMX.Skia,
+  FMX.Controls.Presentation, FMX.StdCtrls;
 
 type
   TForm1 = class(TForm)
@@ -79,12 +80,17 @@ type
     StaticAnimationEffect: TFloatAnimation;
     MainAnimationEffect: TFloatAnimation;
     MainPanel: TRectangle;
+    StyleBook1: TStyleBook;
+    CloseButton: TSpeedButton;
     procedure MainAnimationAnimationFinished(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure MainPanelEffectFinish(Sender: TObject);
     procedure StaticAnimationEffectFinish(Sender: TObject);
     procedure MainAnimationEffectFinish(Sender: TObject);
-  procedure DoNextAnimation;
+    procedure DoNextAnimation;
+    procedure CloseButtonClick(Sender: TObject);
+    procedure CloseButtonMouseEnter(Sender: TObject);
+    procedure CloseButtonMouseLeave(Sender: TObject);
   end;
 
 var
@@ -106,6 +112,21 @@ end;
 procedure TForm1.StaticAnimationEffectFinish(Sender: TObject);
 begin
   MainPanel.Visible               := True;
+end;
+
+procedure TForm1.CloseButtonClick(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TForm1.CloseButtonMouseEnter(Sender: TObject);
+begin
+  CloseButton.Opacity := 1;
+end;
+
+procedure TForm1.CloseButtonMouseLeave(Sender: TObject);
+begin
+  CloseButton.Opacity := 0.2;
 end;
 
 procedure TForm1.DoNextAnimation;

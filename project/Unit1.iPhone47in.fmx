@@ -1,32 +1,27 @@
 inherited Form1_iPhone47in: TForm1_iPhone47in
-  ClientHeight = 647
-  ClientWidth = 375
+  ClientHeight = 648
+  ClientWidth = 376
   DesignerMasterStyle = 2
   inherited VertScrollBox1: TVertScrollBox
-    Size.Width = 375.000000000000000000
-    Size.Height = 647.000000000000000000
-    Viewport.Width = 375.000000000000000000
-    Viewport.Height = 647.000000000000000000
+    Size.Width = 376.000000000000000000
+    Size.Height = 648.000000000000000000
+    Viewport.Width = 376.000000000000000000
+    Viewport.Height = 648.000000000000000000
     inherited HeaderLayout: TLayout
-      Size.Width = 375.000000000000000000
+      Size.Width = 376.000000000000000000
       Size.Height = 97.000000000000000000
-      inherited lbCity: TSkLabel
-        Position.X = 146.000000000000000000
-      end
       inherited SkLabel1: TSkLabel
         Position.X = 129.000000000000000000
       end
       inherited CurrentWeatherAnimation: TSkAnimatedImage
         Position.X = 8.000000000000000000
       end
+      inherited CloseButton: TSpeedButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
     end
     inherited MainLayout: TLayout
       Size.Width = 375.000000000000000000
-      inherited StaticAnimation: TSkAnimatedImage
-        Position.Y = 200.000000000000000000
-        Size.Width = 375.000000000000000000
-        Size.Height = 400.000000000000000000
-      end
       inherited MainAnimation: TSkAnimatedImage
         Opacity = 0.000000000000000000
         Size.Width = 375.000000000000000000
@@ -35,8 +30,13 @@ inherited Form1_iPhone47in: TForm1_iPhone47in
           Position.Y = 289.000000000000000000
         end
       end
+      inherited StaticAnimation: TSkAnimatedImage
+        Size.Width = 375.000000000000000000
+        Size.Height = 400.000000000000000000
+      end
       inherited MainPanel: TRectangle
         Size.Width = 360.000000000000000000
+        Stroke.Kind = None
         inherited SkLabel11: TSkLabel
           Position.X = 155.000000000000000000
         end
@@ -144,5 +144,10 @@ inherited Form1_iPhone47in: TForm1_iPhone47in
         end
       end
     end
+  end
+  inherited StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
   end
 end
